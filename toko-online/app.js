@@ -6,12 +6,14 @@ var logger = require('morgan');
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
-
+var engine = require('ejs-blocks');//menggunakan ejs block
 var app = express();
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
+var engine = ('ejs', this.engine); //daftarkan engine ejs block
 app.set('view engine', 'ejs');
+
 
 app.use(logger('dev'));
 app.use(express.json());
