@@ -6,7 +6,8 @@ var products = require("../data/products.json")
 router.get('/', function(req, res, next) {
   res.render('index', { 
     title: 'Toko Online Sederhana',
-    products: products
+    products: products,
+    search:""
   });
 });
 
