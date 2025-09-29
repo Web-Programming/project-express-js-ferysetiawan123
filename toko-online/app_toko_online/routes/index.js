@@ -1,23 +1,18 @@
 var express = require('express');
 var router = express.Router();
 var products = require("../data/products.json")
+var maincontrollers = require("../controllers/main")
 
 /* GET home page. */
-router.get('/', function(req, res, next) {
-  res.render('index', { 
-    title: 'Toko Online Sederhana',
-    products: products,
-    search:""
-  });
-});
+router.get('/',maincontrollers.index)
 
-/* GET search product. */
+//* GET search product. */
 router.get('/search', function(req, res, next) {
   const q = req.query.q ? req.query.q.toLowerCase() : "";
 
   console.log("Search query:", q);
 
-  // filtering product
+/// filtering product
   let filtered = products;
   if (q) {
     filtered = products.filter(p => p.name.toLowerCase().includes(q));
