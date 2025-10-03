@@ -1,0 +1,123 @@
+[
+  {
+    "id": 1,
+    "name": "Laptop Gaming",
+    "price": 15000000,
+    "description": "Laptop bisnis dengan performa tinggi dan desain kokoh gacor."
+  },
+{
+   
+    "id": 2,
+    "name": "Smartphone Android",
+    "price": 4500000,
+    "description": "Smartphone canggih dengan kamera jernih dan baterai tahan lama."
+  },
+  {
+    "id": 3,
+    "name": "Smartwatch Pro",
+    "price": 2500000,
+    "description": "Jam tangan pintar dengan fitur kesehatan lengkap."
+  },
+  {
+    "id": 4,
+    "name": "Kamera DSLR Canon",
+    "price": 9800000,
+    "description": "Kamera DSLR dengan kualitas foto profesional."
+  },
+  {
+    "id": 5,
+    "name": "Headphone Bluetooth",
+    "price": 750000,
+    "description": "Headphone wireless dengan suara bass mantap."
+  },
+  {
+    "id": 6,
+    "name": "Keyboard Mechanical RGB",
+    "price": 1200000,
+    "description": "Keyboard gaming dengan lampu RGB dan switch tactile."
+  },
+  {
+    "id": 7,
+    "name": "Mouse Wireless",
+    "price": 350000,
+    "description": "Mouse ergonomis dengan konektivitas nirkabel stabil."
+  },
+  {
+    "id": 8,
+    "name": "Speaker Bluetooth",
+    "price": 600000,
+    "description": "Speaker portabel dengan suara jernih dan baterai awet."
+  },
+  {
+    "id": 9,
+    "name": "Tablet iPad Mini",
+    "price": 7000000,
+    "description": "Tablet ringan dengan layar tajam dan performa tinggi."
+  },
+  {
+    "id": 10,
+    "name": "Printer Canon Inkjet",
+    "price": 1800000,
+    "description": "Printer inkjet hemat tinta dengan kualitas cetak tajam."
+  },
+  {
+    "id": 11,
+    "name": "TV LED 43 Inch",
+    "price": 5200000,
+    "description": "Smart TV LED dengan kualitas gambar Full HD."
+  },
+  {
+    "id": 12,
+    "name": "AC Inverter 1 PK",
+    "price": 3700000,
+    "description": "AC hemat energi dengan pendinginan cepat dan senyap."
+  },
+  {
+    "id": 13,
+    "name": "Mesin Cuci Otomatis",
+    "price": 4200000,
+    "description": "Mesin cuci dengan teknologi hemat air dan listrik."
+  },
+  {
+    "id": 14,
+    "name": "Kulkas 2 Pintu",
+    "price": 4800000,
+    "description": "Kulkas dengan kapasitas besar dan pendinginan merata."
+  },
+  {
+    "id": 15,
+    "name": "Rice Cooker Digital",
+    "price": 950000,
+    "description": "Penanak nasi multifungsi dengan berbagai mode memasak."
+  },
+  {
+    "id": 16,
+    "name": "Blender Portable",
+    "price": 450000,
+    "description": "Blender mini dengan baterai rechargeable dan mudah dibawa."
+  },
+  {
+    "id": 17,
+    "name": "Vacuum Cleaner Robot",
+    "price": 3100000,
+    "description": "Penyedot debu otomatis dengan navigasi pintar."
+  },
+  {
+    "id": 18,
+    "name": "Kipas Angin Tornado",
+    "price": 700000,
+    "description": "Kipas angin super kencang dengan 3 mode kecepatan."
+  },
+  {
+    "id": 19,
+    "name": "Dispenser Galon Bawah",
+    "price": 1600000,
+    "description": "Dispenser praktis dengan sistem galon bawah anti tumpah."
+  },
+  {
+    "id": 20,
+    "name": "Lampu LED Pintar",
+    "price": 250000,
+    "description": "Lampu pintar yang bisa dikendalikan lewat smartphone."
+  }
+]
