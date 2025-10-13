@@ -8,6 +8,7 @@ var logger = require('morgan');
 var indexRouter = require('./app_toko_online/routes/index');
 var usersRouter = require('./app_toko_online/routes/users');
 var productRouter = require("./app_toko_online/routes/product"); //letakkan di atas agar rapi
+var apiProductRouter = require("./app_toko_online/routes/api/product");
 var engine = require('ejs-blocks'); //menggunakan ejs block
 var app = express();
 
