@@ -1,5 +1,6 @@
 var products = require('../../data/products.json');
 var Product = require("../models/products");
+var product = require("../controllers/product");
 
 const index = async (req, res) => {
  	try {

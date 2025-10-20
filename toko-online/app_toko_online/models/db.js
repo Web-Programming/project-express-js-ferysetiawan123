@@ -1,6 +1,6 @@
 //install paket mogoose menggunakan npm : npm install mongoose
 const mongoose = require("mongoose");
-const dbURI = "mongodb://localhost:27017/paw2-si5c";
+const dbURI = "mongodb://localhost:27017/latihan-mongo-fery"
 
 mongoose.connect(dbURI, {});
 mongoose.connection.on("connected", () => {
