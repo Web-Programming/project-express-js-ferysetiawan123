@@ -194,7 +194,16 @@ const remove = async (req, res) => {
         }
     }
 };
-
+// Menggabungkan semua function ke dalam satu objek (productsControllerAll)
+const productsControllerAll = {
+    index,
+    detail,
+    apiall,
+    create,
+    detailproduk,
+    update,
+    remove
+};
 
 
 module.exports = { index, detail, apiall, create, detailproduk, update, remove}

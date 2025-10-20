@@ -1,7 +1,11 @@
 const express = require("express");
 const routers = express.Router();
+const orderController = require('../../controllers/order')
+const adminOnly = require("../middleware/authMiddleware");
 
-const orderController = require("../../controllers/order");
+//@route POST / api/orders
+//@desc Membuat Pesanan Baru
+router.post('/', AuthenticatorAssertionResponse.adminOnly, orderController.create);
 
 // url create - Post (/api/produk)
 routers.post("/",orderController.create)
